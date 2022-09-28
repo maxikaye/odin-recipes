@@ -24,6 +24,19 @@ h1 {
     font-weight: bold;
 }
 
+h2 {
+    margin: 16px 0 8px 0;
+    padding: 6px 0;
+    background-color: rgb(249, 86, 37);
+    color: #FFF;
+}
+
+.food-photo {
+    width: 500px;
+    height: auto;
+    margin-top: 16px;
+}
+
 .toc {
     list-style-type: none;
     font-size: 24px;
@@ -40,6 +53,20 @@ h1 {
 .description {
     font-size: 21px;
     padding-bottom: 16px;
+    margin: 0 24px;
 }
 
+.ingredients {
+    margin-left: 350px;
+    font-size: 18px;
+    list-style-type: square;
+    text-align: left;
+}
 
+.steps {
+    margin-left: 48px;
+    margin-bottom: 12px;
+    font-size: 18px;
+    list-style-type: lower-roman;
+    text-align: left;
+}
